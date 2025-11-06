@@ -1,0 +1,100 @@
+  body {
+    font-family: 'roboto condensed', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #E1E6E8;
+    margin: 0;
+    padding: 15px; 
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'roboto condensed', serif;
+    color: #1a2a6c;
+  }
+  
+  .navStyle {
+    background-color: #04217A;
+    padding: 10px 25px; 
+  }
+
+  .navItem {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+
+  .navItem:hover {
+    text-decoration: underline;
+    color: #04217A;
+  }
+
+  .footerStyle {
+    background-color: #04217A;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+
+  .rtt {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #04217A;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+
+  .rtt a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .rtt:hover {
+    background-color: #0055aa;
+  }
+
+  figcaption {
+    font-family: 'Roboto condensed', sans-serif;
+    color: #04217A;
+    text-align: center;
+    font-size: 0.95em;
+  }
+
+  .photo-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .photo-gallery figure {
+    width: 25%;
+    text-align: center;
+    margin: 0;
+  }
+.photo-gallery img {
+  width: 100%;  
+  height: auto;
+  border-radius: 10px;
+}
+
+.photo-gallery figcaption {
+  font-family: 'Roboto condensed', sans-serif;
+  color: #333; 
+  margin-top: 8px;
+}
+
+  .cell {
+    padding: 15px;
+  }
+
+  .fullwidth-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+  }
+
