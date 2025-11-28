@@ -1,0 +1,112 @@
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navient Complaints</title>
+<link rel="stylesheet" href="css/foundation.css">
+<link rel="stylesheet" href="css/app.css">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+
+    var data = google.visualization.arrayToDataTable([
+      ['Year', 'Complaints'],
+      ['2012',  0],
+      ['2013',  0],
+      ['2014',  0],
+      ['2015',  3],
+      ['2016',  8],
+      ['2017',  25], 
+      ['2018',  20],
+      ['2019',  8],
+      ['2020',  10],
+      ['2021',  4],
+      ['2022',  8],
+      ['2023',  7],
+      ['2024',  10]
+    ]);
+
+    var options = {
+      title: 'Navient Complaints by Year (2012–2024)',
+      hAxis: {
+        title: 'Year'
+      },
+      vAxis: {
+        title: 'Number of Complaints',
+        ticks: [0,5,10,15,20,25]
+      },
+      legend: { position: 'none' },
+      pointSize: 6,
+      lineWidth: 3,
+      colors: ['#3366cc']
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+  }
+</script>
+
+
+
+</head>
+<body>
+
+<!-- THIS OPENS A CONTAINER -->
+<div class="grid-container">
+<div class="grid-x">
+<div class="large-12 medium-12 small-12 cell" style="background-color:#FFFFFF"><h1>Navient Corporation History</h1>
+</div>
+
+<div class="large-9 medium-9 small-12 cell"><h2>Complaint and Lawsuit History</h2>
+  <p style="font-size: 14px; color: #555555;">
+  <strong>By:</strong> Aubrey Wurst <strong>Date:</strong> November 28, 2025
+</p>
+
+
+  <p>     Navient Corporation is a federal student loan servicer, one of the largest in the nation. The company provides loan management services and solutions for student loans, and is known for their range of benefits for workers.  Trouble started for the company in 2017, when they started facing lawsuits from state attorney generals and the Consumer Financial Protection Bureau. The 2017 lawsuit between Consumer Financial Protection Bureau and Navient accused Navient of not working in the best interest of their customers. The Consumer Financial Protection Bureau said Navient did not correctly assign student loan installments to borrower accounts, steered borrowers who did not know what they were doing in the wrong directions, reported loans incorrectly, and did not inform borrowers of their IDR plan renewal. In May of 2020, Navient tried to get the Consumer Financial Protection Bureau lawsuit dismissed, but it is still open. After the CFPB lawsuit, 39 state attorneys general joined a settlement announced in 2022, which required Navient to provide $1.7 billion in relief for over 66,000 borrowers of student loans, and  pay $95 million to federal student loan borrowers in restitution. </p>
+
+  <p>
+Navient had their largest spike of complaints to the CFPB in 2017, this complaint spike was sparked by the CFPB lawsuit. The lawsuit brought issues with Navient to light and customers were able to recognize these errors. Between 2017 and 2019 Navient was able to lower complaints, but since then there has not been a geographical pattern with higher and lower levels of complaints. Every two years there tends to be an increase in complaints, followed by a decrease but the complaints are spread out sporadically across the United States.</p>
+<p>
+Navient said the CFPB lawsuit against them is not supported or proven by evidence, but Navient lost the lawsuit to CFPB in September of 2024, and is banned from servicing federal student loans. Navient is required to pay $120 million in civil penalties and restitution to borrowers. Navient now only manages private loans and defaulted federal loans, the company transferred their active federal loans to other companies, primarily to MOHELA, in 2022. MOHELA is a student loan manager that helps with repayment, loan consolidation, and forgiveness. 
+</p>
+
+<div class="related-info">
+  <h4>Related Info</h4>
+  <p class="related-info">
+  Navient: <a href="https://navient.com/" target="_blank" rel="noopener noreferrer">navient.com</a></p>
+
+<p class="related-info">
+  Consumer Financial Protection Bureau: <a href="https://www.consumerfinance.gov/data-research/consumer-complaints/search/?chartType=line&dateInterval=Year&dateRange=3y&date_received_max=2025-11-27&date_received_min=2022-11-27&lens=Product&searchField=all&searchText=Navient%20Solutions%20complaints&subLens=sub_product&tab=Trends" target="_blank" rel="noopener noreferrer">CFPB</a></p>
+
+<p class="related-info">
+  Student Loan Planner <a href="https://www.studentloanplanner.com/" target="_blank" rel="noopener noreferrer">studentloanplanner.com</a>
+
+</p>
+
+</div>
+
+
+<div class="callout">
+  <h5>Infographic</h5>
+  <p>Navient Complaints to CFPB</p>
+  <div id="chart_div" style="width:100%; height:400px; margin-top:20px;"></div>
+</div>
+
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
