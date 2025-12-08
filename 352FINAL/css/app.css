@@ -1,0 +1,113 @@
+body {
+  background-color: #E8E8E8;  
+  font-family: "Playfair Display", serif; 
+}
+
+.callout {border-radius:20px;
+background-color:#cccccc;
+text-align:center;
+}
+
+.byline {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.bannerBar {
+  background-color: #B30000;
+  color: #E8E8E8;
+  text-align: center;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.bannerTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar {
+  margin-top: 120px;
+ }
+
+.sidebar-photo-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;               
+  margin-bottom: 15px;    
+}
+
+.sidebar-thumb {
+  width: 50px;             
+  height: 50px;
+  object-fit: cover;       
+  border-radius: 6px;      
+}
+
+.sidebar-text {
+  font-size: 0.9rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.article-column {
+  padding-right: 40px;
+}
+
+figure.padded-img {
+  padding: 10px;
+  text-align: center;   
+}
+
+figure.padded-img img {
+  width: 100%;          
+  border-radius: 20px;  
+  border-radius: 20px;
+}
+
+figure.padded-img figcaption {
+  font-size: 14px;
+  font-style: normal;
+  color: #555;
+  margin-top: 3px;
+}
+
+  .map-img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 6px;       
+  border: 1px solid #ddd;  
+}
+
+.map-container { 
+text-align: center;
+padding: 10px 0;
+ }
+
+.map-container figcaption {
+  font-size: 0.9rem;
+  margin-top: 5px;
+font-style: normal;
+  color: #555555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
