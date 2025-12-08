@@ -97,6 +97,19 @@ font-style: normal;
   color: #555555;
 }
 
+.citationBanner {
+  width: 100%;
+  background-color: #F5F5F5;
+  padding: 9px 0;
+  border-top: 1px solid #cccccc;
+}
+
+.citationBanner p {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  color: #737373;
+}
 
 
 
